@@ -8,8 +8,22 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>You are awesome!</h1>
-    
+    <h1>Rock | Paper | Scissor</h1>
+    <div class="buttons">
+        <button id='rock' alt= 'rock'>rock</button>
+        <button id='paper' alt = 'paper'>paper</button>
+        <button id='scissor' alt = 'scissor'>scissor</button>
+    </div>
+    <div class='scores'>
+        Player score <span class="player-score">Ø</span>
+        Computer score <span class="computer-score">Ø</span>
+    </div>
+    <p><span id="result"></span></p>
+    <p><span class="bestOf5">[Best of 5]</span></p>
+    <p><span id="winner"></span></p>
+
+    <button class="reset-game">Reset game</button>
+
     <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
